@@ -13,7 +13,7 @@ import AlbumList from "./src/components/albumList"
 // };
 
 const App = () => (
-  <View>
+  <View style = {{flex:1}} >
     <Header HeaderText = {"Albums"} />
     <AlbumList />
   </View>
